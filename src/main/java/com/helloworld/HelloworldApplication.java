@@ -1,4 +1,4 @@
- Mispackage com.helloworld;
+package com.helloworld;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.SpringApplication;
@@ -16,7 +16,7 @@ public class HelloworldApplication {
 	  class HelloworldController {
 	    @GetMapping("/check")
 	    String hello() {
-	      return "Hello Miss Gowthami \t" + target + "\t Your husband says He loves you";
+	      return "Hello Miss Gowthami \n" + target + "\n Your husband says He loves you";
 	    }
 	  }
 
