@@ -16,7 +16,7 @@ public class HelloworldApplication {
 	  class HelloworldController {
 	    @GetMapping("/check")
 	    String hello() {
-	      return "Hello Miss Gowthami \n" + target + "\n Your husband says He loves you";
+	      return "Hello Mrs Gowthami " + target + "Welcome to Azure Devops";
 	    }
 	  }
 
