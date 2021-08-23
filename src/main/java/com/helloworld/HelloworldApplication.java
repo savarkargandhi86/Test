@@ -14,7 +14,7 @@ public class HelloworldApplication {
 
 	  @RestController
 	  class HelloworldController {
-	    @GetMapping("/message")
+	    @GetMapping("/check")
 	    String hello() {
 	      return "Ola" + target + "!";
 	    }
