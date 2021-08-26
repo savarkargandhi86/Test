@@ -16,7 +16,7 @@ public class HelloworldApplication {
 	  class HelloworldController {
 	    @GetMapping("/check")
 	    String hello() {
-	      return "Hello " + target + " Release happened on 25th Auguest";
+	      return "Hello " + target + " Release happened on 26th August";
 	    }
 	  }
 
