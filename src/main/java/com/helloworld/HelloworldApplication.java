@@ -14,9 +14,9 @@ public class HelloworldApplication {
 
 	  @RestController
 	  class HelloworldController {
-	    @GetMapping("/check")
+	    @GetMapping("/test")
 	    String hello() {
-	      return "Hello " + target + " Release happened on 26th August";
+	      return "Hello " + target + " This is testing applicaiton";
 	    }
 	  }
 
