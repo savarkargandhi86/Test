@@ -16,7 +16,7 @@ public class HelloworldApplication {
 	  class HelloworldController {
 	    @GetMapping("/test")
 	    String hello() {
-	      return "Hello " + target + " This is testing applicaiton";
+	      return "Hello " + target + " This is checking";
 	    }
 	  }
 
